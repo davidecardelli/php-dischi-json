@@ -1,0 +1,19 @@
+body {
+    background-color: #1d2d3c;
+    color: #fff;
+}
+
+header {
+    height: 80px;
+    background-color: #112030;
+}
+
+main {
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+}
+
+.card {
+    height: 200px;
+    background-color: #112030;
+}
