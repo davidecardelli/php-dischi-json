@@ -8,12 +8,22 @@ header {
     background-color: #112030;
 }
 
+header a {
+    text-decoration: none;
+    color: #81b71a;
+    font-size: 3rem;
+}
+
 main {
     height: calc(100vh - 80px);
     overflow-y: auto;
 }
 
 .card {
-    height: 200px;
     background-color: #112030;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
 }
